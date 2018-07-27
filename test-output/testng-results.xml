@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="138" started-at="2018-07-25T03:32:54Z" finished-at="2018-07-25T03:32:54Z">
+    <groups>
+      <group name="smoke">
+        <method signature="UserManagementAddUsers.sampleTest()[pri:0, instance:AdminLogin.UserManagementAddUsers@4667ae56]" name="sampleTest" class="AdminLogin.UserManagementAddUsers"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Test1" duration-ms="138" started-at="2018-07-25T03:32:54Z" finished-at="2018-07-25T03:32:54Z">
+      <class name="AdminLogin.UserManagementAddUsers">
+        <test-method status="PASS" signature="sampleTest()[pri:0, instance:AdminLogin.UserManagementAddUsers@4667ae56]" name="sampleTest" duration-ms="15" started-at="2018-07-25T03:32:54Z" finished-at="2018-07-25T03:32:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleTest -->
+      </class> <!-- AdminLogin.UserManagementAddUsers -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
