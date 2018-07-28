@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
-  <parameter name="Designation" value="Global Admin"/>
-  <parameter name="URL" value="https://orangehrm-demo-6x.orangehrmlive.com/"/>
-  <test thread-count="1" name="Test1(failed)" parallel="tests">
-    <parameter name="Browser" value="Chrome"/>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
       <class name="AdminLogin.UserManagementAddUsers">
         <methods>
-          <include name="addUsers" invocation-numbers="1 0 1"/>
+          <include name="addUsers"/>
           <include name="BrowserLaunch"/>
+          <include name="sampleTest"/>
           <include name="takeSH"/>
         </methods>
       </class> <!-- AdminLogin.UserManagementAddUsers -->
     </classes>
-  </test> <!-- Test1(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

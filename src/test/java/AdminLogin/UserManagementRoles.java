@@ -17,6 +17,7 @@ import com.hrm.drivermanager.DriverSetUP;
 public class UserManagementRoles extends Application {
 	@Test()
 	public void rolesVerification() throws InterruptedException {
+		// Just to test PUSH Functionality 
 		loginAsAdmin();
 		System.out.println("Looged into HRM");
 		Thread.sleep(2000);
