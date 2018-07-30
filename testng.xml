@@ -6,11 +6,11 @@
 	<parameter name="Designation" value="Global Admin" />
 	<test name="Test1">
 		<parameter name="Browser" value="Chrome" />
-		<groups>
+	<!-- 	<groups>
 			<run>
 				<include name="smoke" />
 			</run>
-		</groups>
+		</groups> -->
 		<classes>
 			<class name="AdminLogin.UserManagementAddUsers" />
 			<class name="AdminLogin.MultipleWindow" />

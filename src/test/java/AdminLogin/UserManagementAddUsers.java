@@ -24,7 +24,7 @@ public class UserManagementAddUsers extends Application {
 		driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 		/********* Explicit Wait Object Creation***********/
 		loginAsAdmin();
-		// sample test
+		// sample test 123
 		WebDriverWait wait = new WebDriverWait(driver,60);
 		System.out.println("Looged into HRM");
 		click(AdminPage.admin_link, "Admin Link");

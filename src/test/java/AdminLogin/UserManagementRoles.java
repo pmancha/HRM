@@ -1,5 +1,6 @@
 package AdminLogin;
 
+import java.io.IOException;
 import java.util.List;
 
 import org.openqa.selenium.By;
@@ -16,7 +17,7 @@ import com.hrm.drivermanager.DriverSetUP;
 
 public class UserManagementRoles extends Application {
 	@Test()
-	public void rolesVerification() throws InterruptedException {
+	public void rolesVerification() throws InterruptedException, IOException {
 		// Just to test PUSH Functionality 
 		loginAsAdmin();
 		System.out.println("Looged into HRM");
