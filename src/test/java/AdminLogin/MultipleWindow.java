@@ -20,7 +20,7 @@ public class MultipleWindow extends Application {
 	@Test(enabled=true)
 	
 	public void verifyHRMLink() throws InterruptedException {
-		// Test
+		// Test 123
 		loginAsAdmin();
 		System.out.println("Logged into HRM");
 		Thread.sleep(2000);
